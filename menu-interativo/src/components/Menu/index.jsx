@@ -9,7 +9,7 @@ const Menu = () => {
 
     return(
         <Board>
-            <Table titulo='Pizza'></Table>
+            <Table></Table>
         </Board>
     );
 }
