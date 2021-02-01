@@ -6,9 +6,9 @@ const Table = () => {
     const [displayPizza, setDisplayPizza] = useState(true);
     const [displayDoce, setDisplayDoce] = useState(false);
     const [greyTitle, setGreyTitle] = useState(false); 
-    
+
     const pizzaFunc = () => {
-        if (displayPizza == false) {
+        if (displayPizza === false) {
             setDisplayPizza(true);
             setDisplayDoce(false);
             setGreyTitle(false);
@@ -18,7 +18,7 @@ const Table = () => {
     }
 
     const doceFunc = () => {
-        if (displayDoce == false) {
+        if (displayDoce === false) {
             setDisplayDoce(true);
             setDisplayPizza(false);
             setGreyTitle(true);
